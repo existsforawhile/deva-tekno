@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nevşehir Televizyon Tamiri - DEVA TEKNO SERVİSİ</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f7f9fc;
+        }
+        .card-shadow {
+            box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.05), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+        .cta-button {
+            transition: all 0.3s ease;
+        }
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 15px rgba(66, 133, 244, 0.3);
+        }
+        .section-heading {
+            border-left: 5px solid #ef4444; 
+            padding-left: 1rem;
+        }
+
+        .hero-bg {
+            position: relative;
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body class="text-gray-800">
+
+    <!-- Header / Navbar -->
+    <header class="bg-white shadow-lg sticky top-0 z-50">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+            <a href="#home" class="text-2xl font-extrabold text-red-600 hover:text-red-700 transition duration-300">
+                DEVA TEKNO SERVİSİ
+            </a>
+            
+            <a href="tel:+905392058500" class="flex items-center space-x-2 bg-red-600 text-white py-2 px-4 rounded-full text-sm font-semibold hover:bg-red-700 cta-button">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                    <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.103 6.103l.773-1.548a1 1 0 011.06-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.794 18 2 12.206 2 5V3z" />
+                </svg>
+                <span>Hemen Ara: 0539 205 85 00</span>
+            </a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="relative py-16 md:py-24 overflow-hidden hero-bg">
+        <img 
+            src="./hero-bg.jpg"
+            alt="Televizyon Test Ekranı (Arıza Görüntüsü)" 
+            class="absolute inset-0 w-full h-full object-cover"
+        />
+        
+        <div class="absolute inset-0 bg-gray-900 opacity-80"></div>
+        
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-white text-center">
+            <h1 class="text-4xl sm:text-5xl lg:text-7xl font-extrabold leading-tight mb-4 tracking-tight">
+                Nevşehir'de Tüm Marka TV'lere Garantili Tamir ve Servis
+            </h1>
+            <p class="text-xl sm:text-2xl mb-8 font-light max-w-3xl mx-auto">
+                Görüntü yok, ses var, ekran arızası veya anakart sorunları... Tüm problemlerinize hızlı ve şeffaf çözümler sunuyoruz.
+            </p>
+            <a href="#contact" class="inline-block bg-red-600 text-white text-lg font-bold py-3 px-8 rounded-lg shadow-xl hover:bg-red-700 cta-button">
+                Ücretsiz Arıza Tespiti İçin İletişime Geçin
+            </a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-16 lg:py-24 bg-white">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold section-heading mb-10 text-gray-900">
+                Sunduğumuz Başlıca Hizmetler
+            </h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                
+                <div class="bg-gray-50 p-6 rounded-xl card-shadow text-center hover:bg-red-50 transition duration-300">
+                    <div class="text-red-500 mb-4 mx-auto w-12 h-12">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-full h-full"><path stroke-linecap="round" stroke-linejoin="round" d="M9 17.25v1.006a3 3 0 01-5.223 1.818A3 3 0 013 16.5V16.5M9 17.25H4.875A2.875 2.875 0 012 14.375V10.5M9 17.25v-1.044c0-.44.2-.84.522-1.11A5.94 5.94 0 0112 15c1.071 0 2.083-.34 2.956-.954.322-.27.522-.67.522-1.11V12.75M9 17.25h9V10.5A2.25 2.25 0 0015.75 8.25H9v9M16.5 12a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM19.5 12a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM7.5 7.5a.75.75 0 100-1.5.75.75 0 000 1.5z" /></svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2 text-gray-900">Ekran Tamiri / Değişimi</h3>
+                    <p class="text-gray-600 text-sm">Kırık, çizgili veya kararmış ekran sorunlarına profesyonel ve garantili çözüm.</p>
+                </div>
+                
+                <div class="bg-gray-50 p-6 rounded-xl card-shadow text-center hover:bg-red-50 transition duration-300">
+                    <div class="text-red-500 mb-4 mx-auto w-12 h-12">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-full h-full"><path stroke-linecap="round" stroke-linejoin="round" d="M8.25 3v1.5M4.5 9h15m-15 3.75h15m-15 4.5h15M17.25 5.25v1.5M21 18.75V8.25A2.25 2.25 0 0018.75 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75z" /></svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2 text-gray-900">Anakart / Güç Kartı</h3>
+                    <p class="text-gray-600 text-sm">TV'nin açılmaması, ses var görüntü yok gibi karmaşık kart arızalarının onarımı.</p>
+                </div>
+
+                <div class="bg-gray-50 p-6 rounded-xl card-shadow text-center hover:bg-red-50 transition duration-300">
+                    <div class="text-red-500 mb-4 mx-auto w-12 h-12">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-full h-full"><path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9.004 9.004 0 008.283-5.632l-2.003-.546a7.504 7.504 0 01-13.905-2.029l.716-1.92A9.004 9.004 0 0012 21zM21 12a9.004 9.004 0 00-17.917.481l1.728.604A7.504 7.504 0 0112 4.5c.96 0 1.875.251 2.7.728l1.728.604A9.004 9.004 0 0021 12z" /></svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2 text-gray-900">Yerinde Servis</h3>
+                    <p class="text-gray-600 text-sm">Küçük yazılımsal sorunlar, ayar veya basit arızalar için adresinizde hızlı çözüm.</p>
+                </div>
+                
+                <div class="bg-gray-50 p-6 rounded-xl card-shadow text-center hover:bg-red-50 transition duration-300">
+                    <div class="text-red-500 mb-4 mx-auto w-12 h-12">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-full h-full"><path stroke-linecap="round" stroke-linejoin="round" d="M10.5 6h9.75M10.5 6a1.5 1.5 0 11-3 0m3 0a1.5 1.5 0 10-3 0M3.75 16.5h9.75M3.75 16.5a1.5 1.5 0 11-3 0m3 0a1.5 1.5 0 10-3 0M10.5 12h9.75M10.5 12a1.5 1.5 0 11-3 0m3 0a1.5 1.5 0 10-3 0" /></svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2 text-gray-900">Yazılım ve Ayar</h3>
+                    <p class="text-gray-600 text-sm">Smart TV ayarları, kanal listesi düzenleme ve güncel yazılım kurulumu hizmetleri.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section id="why-us" class="py-16 lg:py-24 bg-gray-50">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="lg:flex lg:items-center lg:space-x-12">
+                
+                <!-- Content Block -->
+                <div class="lg:w-1/2 mb-10 lg:mb-0">
+                    <h2 class="text-3xl font-bold section-heading mb-6 text-gray-900">
+                        Neden DEVA TEKNO'yu Tercih Etmelisiniz?
+                    </h2>
+                    <p class="text-gray-600 mb-8 leading-relaxed">
+                        Nevşehir bölgesinde DEVA TEKNO olarak televizyon arızalarına hızlı, güvenilir ve şeffaf çözümler sunuyoruz. Arıza tespiti ve onarım süreçlerinde daima en yüksek kaliteyi hedefliyoruz.
+                    </p>
+                    
+                    <ul class="space-y-4">
+                        <li class="flex items-start space-x-3">
+                            <div class="text-red-600 mt-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" /></svg>
+                            </div>
+                            <span class="text-lg font-medium text-gray-900">1 Yıl Garanti:</span> <span class="text-gray-700">Yapılan tüm parça ve işçilikler 1 yıl boyunca garantimiz altındadır.</span>
+                        </li>
+                        <li class="flex items-start space-x-3">
+                            <div class="text-red-600 mt-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" /></svg>
+                            </div>
+                            <span class="text-lg font-medium text-gray-900">Hızlı ve Yerinde Servis:</span> <span class="text-gray-700">Arızanıza en geç 24 saat içinde müdahale ediyoruz.</span>
+                        </li>
+                        <li class="flex items-start space-x-3">
+                            <div class="text-red-600 mt-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" /></svg>
+                            </div>
+                            <span class="text-lg font-medium text-gray-900">Şeffaf Fiyatlandırma:</span> <span class="text-gray-700">Onarım öncesi fiyat teklifi sunar, sürpriz maliyet çıkarmaz.</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="lg:w-1/2 rounded-xl overflow-hidden card-shadow">
+                    <img 
+                        src="https://placehold.co/600x400/ef4444/ffffff?text=Usta+Tamirci+G%C3%B6rseli" 
+                        onerror="this.onerror=null; this.src='https://placehold.co/600x400/ef4444/ffffff?text=Uzman+Teknisyen';"
+                        alt="Uzman teknisyen çalışırken" 
+                        class="w-full h-full object-cover transform hover:scale-105 transition duration-500"
+                    />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Brands Section -->
+    <section id="brands" class="py-16 lg:py-24">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl font-bold section-heading inline-block mb-10 text-gray-900">
+                Tamir Ettiğimiz Başlıca Markalar
+            </h2>
+            <p class="text-gray-600 mb-12 max-w-2xl mx-auto">
+                Model ve yaş fark etmeksizin piyasadaki tüm popüler televizyon markalarına servis ve onarım hizmeti sunmaktayız.
+            </p>
+            
+            <div class="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-6 gap-6 items-center justify-center">
+                <div class="p-4 bg-white rounded-lg shadow-md hover:shadow-xl transition duration-300">
+                    <p class="font-bold text-xl text-blue-800">SAMSUNG</p>
+                </div>
+                <div class="p-4 bg-white rounded-lg shadow-md hover:shadow-xl transition duration-300">
+                    <p class="font-bold text-xl text-red-600">LG</p>
+                </div>
+                <div class="p-4 bg-white rounded-lg shadow-md hover:shadow-xl transition duration-300">
+                    <p class="font-bold text-xl text-yellow-600">SONY</p>
+                </div>
+                <div class="p-4 bg-white rounded-lg shadow-md hover:shadow-xl transition duration-300">
+                    <p class="font-bold text-xl text-gray-700">VESTEL</p>
+                </div>
+                <div class="p-4 bg-white rounded-lg shadow-md hover:shadow-xl transition duration-300">
+                    <p class="font-bold text-xl text-pink-700">PHILIPS</p>
+                </div>
+                <div class="p-4 bg-white rounded-lg shadow-md hover:shadow-xl transition duration-300">
+                    <p class="font-bold text-xl text-green-700">ARÇELİK</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="py-16 lg:py-24 bg-gray-100">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="lg:flex lg:items-center lg:space-x-12">
+                <div class="lg:w-1/2 rounded-xl overflow-hidden card-shadow mb-10 lg:mb-0">
+                    <img 
+                        src="https://placehold.co/600x400/fca5a5/1f2937?text=Nev%C5%9Fehir+TV+Tamir" 
+                        onerror="this.onerror=null; this.src='https://placehold.co/600x400/fca5a5/1f2937?text=At%C3%B6lye+G%C3%B6rseli';"
+                        alt="Televizyon tamir atölyesi" 
+                        class="w-full h-full object-cover transform hover:scale-105 transition duration-500"
+                    />
+                </div>
+                
+                <!-- Content Block -->
+                <div class="lg:w-1/2">
+                    <h2 class="text-3xl font-bold section-heading mb-6 text-gray-900">
+                        Hakkımızda: Nevşehir'in TV Uzmanı
+                    </h2>
+                    <p class="text-gray-600 mb-4 leading-relaxed">
+                        DEVA TEKNO SERVİSİ, Nevşehir'de 2008 yılından bu yana hizmet veren köklü bir televizyon tamir merkezidir. Kapadokya bölgesinin tüm ilçelerine (Merkez, Ürgüp, Avanos, Göreme) hızlı ve güvenilir teknik servis hizmeti sunmaktayız.
+                    </p>
+                    <p class="text-gray-600 leading-relaxed">
+                        Televizyonunuzu ilk günkü performansına döndürmeyi hedefleriz. Müşteri memnuniyetini ön planda tutarak, onarımlarımızda orijinal veya birinci sınıf muadili yedek parçalar kullanırız ve tüm işlemlerimiz garantilidir.
+                    </p>
+                    <a href="#contact" class="mt-6 inline-block text-red-600 font-semibold hover:text-red-800 transition duration-300">
+                        Daha fazla bilgi için bize ulaşın &rarr;
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 lg:py-24 bg-white">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold section-heading mb-10 text-gray-900 text-center">
+                Arızanız İçin Hemen Bize Ulaşın
+            </h2>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                <!-- Contact Form -->
+                <div class="bg-gray-50 p-8 rounded-xl card-shadow">
+                    <h3 class="text-2xl font-semibold mb-6 text-gray-900">Arıza Bildirim Formu</h3>
+                    <form action="#" method="POST" id="contact-form" onsubmit="return handleFormSubmit(event)">
+                        <div class="space-y-4">
+                            <div>
+                                <label for="name" class="block text-sm font-medium text-gray-700">Adınız Soyadınız</label>
+                                <input type="text" name="name" id="name" required class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm p-3 focus:ring-red-500 focus:border-red-500">
+                            </div>
+                            <div>
+                                <label for="phone" class="block text-sm font-medium text-gray-700">Telefon Numaranız</label>
+                                <input type="tel" name="phone" id="phone" required class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm p-3 focus:ring-red-500 focus:border-red-500">
+                            </div>
+                            <div>
+                                <label for="message" class="block text-sm font-medium text-gray-700">Arıza Açıklaması (Marka ve Model)</label>
+                                <textarea id="message" name="message" rows="4" required class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm p-3 focus:ring-red-500 focus:border-red-500"></textarea>
+                            </div>
+                            <button type="submit" class="w-full bg-red-600 text-white font-bold py-3 px-4 rounded-lg hover:bg-red-700 cta-button">
+                                Talep Gönder
+                            </button>
+                        </div>
+                    </form>
+                    <div id="form-message" class="mt-4 text-center text-sm font-medium hidden p-3 rounded-lg"></div>
+                </div>
+
+                <!-- Contact Details and Map -->
+                <div class="space-y-8">
+                    <!-- Details -->
+                    <div class="bg-gray-50 p-8 rounded-xl card-shadow">
+                        <h3 class="text-2xl font-semibold mb-6 text-gray-900">İletişim Bilgileri</h3>
+                        <p class="flex items-center space-x-3 mb-3 text-gray-700">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-red-500" viewBox="0 0 20 20" fill="currentColor"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.103 6.103l.773-1.548a1 1 0 011.06-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.794 18 2 12.206 2 5V3z" /></svg>
+                            <span class="font-bold">Telefon:</span> 0539 205 85 00
+                        </p>
+                        <p class="flex items-center space-x-3 mb-3 text-gray-700">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-red-500" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd" /></svg>
+                            <span class="font-bold">Adres:</span> 350 Evler, Caner Sk. No:5, 50300 Nevşehir Merkez/Nevşehir
+                        </p>
+                        <p class="flex items-center space-x-3 text-gray-700">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-red-500" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.414-1.414L11 9.586V6z" clip-rule="evenodd" /></svg>
+                            <span class="font-bold">Çalışma Saatleri:</span> Pzt-Cuma: 09:00 - 18:00
+                        </p>
+                    </div>
+
+                    <!-- Map Placeholder -->
+                    <div class="rounded-xl overflow-hidden card-shadow h-64 bg-gray-200 flex items-center justify-center">
+                        <p class="text-gray-500 font-semibold">Google Harita Konumu (Yer Tutucu)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <div class="mb-4">
+                <a href="#home" class="text-xl font-extrabold text-red-400 hover:text-red-300 transition duration-300">
+                    DEVA TEKNO SERVİSİ
+                </a>
+            </div>
+            <div class="text-sm space-x-4 mb-4">
+                <a href="#home" class="hover:text-red-400 transition duration-300">Ana Sayfa</a>
+                <a href="#services" class="hover:text-red-400 transition duration-300">Hizmetlerimiz</a>
+                <a href="#about" class="hover:text-red-400 transition duration-300">Hakkımızda</a>
+                <a href="#contact" class="hover:text-red-400 transition duration-300">İletişim</a>
+            </div>
+            <p class="text-xs text-gray-400">&copy; 2024 DEVA TEKNO TELEVİZYON TAMİR SERVİSİ. Tüm Hakları Saklıdır. Web Sitesi Tasarımı.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript for Form Submission Handling -->
+    <script>
+        function handleFormSubmit(event) {
+            event.preventDefault(); 
+
+            const formMessage = document.getElementById('form-message');
+            formMessage.classList.remove('hidden');
+            formMessage.classList.remove('bg-red-100', 'text-red-800');
+            formMessage.classList.add('bg-green-100', 'text-green-800');
+            formMessage.textContent = 'Talebiniz başarıyla alınmıştır. En kısa sürede sizinle iletişime geçeceğiz. Teşekkür ederiz!';
+            
+            document.getElementById('contact-form').reset();
+
+            setTimeout(() => {
+                formMessage.classList.add('hidden');
+            }, 5000);
+
+            return false;
+        }
+
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
